@@ -1,0 +1,25 @@
+[project]
+name = "projet-11"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Aurélien Gruzon",email = "aureliengruzon@gmail.com"}
+]
+readme = "README.md"
+requires-python = ">=3.10,<3.11"
+dependencies = [
+    "numpy (==1.23.5)",
+    "pandas (==1.5.3)",
+    "pyarrow (==10.0.1)",
+    "pillow (==9.5.0)",
+    "tensorflow (==2.12.0)",
+    "pyspark (==3.3.1)"
+]
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry]
+package-mode = false
+
